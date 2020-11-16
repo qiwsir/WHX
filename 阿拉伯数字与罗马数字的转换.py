@@ -14,7 +14,7 @@ class Number():
             while self.num >= num_list[i]:
                 roman_list.append(str_list[i])
                 self.num -= num_list[i]
-        print(''.join(roman_list))
+        print(''.join(roman_list))   # 要返回值，不要打印
 
 def judge_num(n):
     while 1:
