@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np  ## 能不能增加图示，表现数据分布
 
 pro = {'均匀分布：' : np.random.uniform(low=0, high=1, size=100),
        '二项分布：' : np.random.binomial(10, 0.5, 100),
